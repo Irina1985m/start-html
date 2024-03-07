@@ -1,26 +1,67 @@
+*{
+    box-sizing: border-box;
+}
 body{
+    color: blue;
     font-size: 14px;
     font-family:sans-serif;
-    color: blue;
 }
 a{
     color: inherit;
 }
 .main-article{
-  font-size: 1.5em;  
-  border: 2px solid red;
-  text-align: center;
-  color:blue;
+    width: 80%;
+    padding: 10px;
+
+    border: 2px solid red;
+
+    margin: auto;
+    
+    color: firebrick;
+
+    text-align: center;
+
+   font-size: 1.5em;  
+
+   font-style: italic;
+  
 }
 .main-article-hearding{
-font-family: initial;  
-border: inherit;  
+    width: 50%;
+    padding: 0.7% 10% ;
+    margin: auto;
+
+    border: inherit;
+    border-radius: 15%;
+
+    background-color: aqua;
+    
+   font-family: initial;  
+   
+}
+.first-letter{
+    font-size: 2em;
+    text-transform: uppercase;
 }
 .main-article-content{
 line-height: 1.2;
 }
+.main-article-pic{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 5px double blue;
+
+    background-color: yellow;
+
+    object-fit: cover;
+    object-position: right;
+}
 .main-article-blockquote{
-    border: inherit;
+    border: inherit; 
+    padding: inherit;
+    border-radius: inherit;
 }
 .initial-aligh{
     text-align: initial;
