@@ -1,68 +1,20 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
+/* html,
 body{
-    color: blue;
-    font-size: 14px;
-    font-family:sans-serif;
-}
-a{
-    color: inherit;
-}
-.main-article{
-    width: 80%;
-    padding: 10px;
-
-    border: 2px solid red;
-
-    margin: auto;
-    
-    color: firebrick;
-
-    text-align: center;
-
-   font-size: 1.5em;  
-
-   font-style: italic;
-  
-}
-.main-article-hearding{
-    width: 50%;
-    padding: 0.7% 10% ;
-    margin: auto;
-
-    border: inherit;
-    border-radius: 15%;
-
-    background-color: aqua;
-    
-   font-family: initial;  
-   
-}
-.first-letter{
-    font-size: 2em;
-    text-transform: uppercase;
-}
-.main-article-content{
-line-height: 1.2;
-}
-.main-article-pic{
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    margin: 20px;
-    border: 5px double blue;
-
+    height: 100%;
+    margin: 0;
+} */
+.parent{
+    width: 100%;
+    height: 100vh;
     background-color: yellow;
-
-    object-fit: cover;
-    object-position: right;
 }
-.main-article-blockquote{
-    border: inherit; 
-    padding: inherit;
-    border-radius: inherit;
-}
-.initial-aligh{
-    text-align: initial;
+.child{
+    width: 100vmin;
+    height: 100vmin;
+    /* padding: 10%; */
+    background-color: pink;
 }
