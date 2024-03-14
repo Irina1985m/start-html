@@ -8,3 +8,9 @@ td{
 th{
     color: black;
 }
+:root{
+    font-size: 14px;
+}
+*:hover{
+    color: fuchsia;
+}
