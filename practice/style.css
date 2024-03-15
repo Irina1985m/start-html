@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 300vh;
+    margin: 0;
+    /* position: relative;
+    } */}
+
+.wrapper{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    background-color: yellow;
+    position: relative;
+    
+}
+.parent{
+    
+    width: 80%;
+    height: 50%;
+    background-color: pink;
+    /* position: relative;
+} */}
+.child{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    background-color: aqua;
+}
+
+.static{
+    position: static;
+    /* top: 10px;
+    left: 10vw; */
+}
+
+.relative{
+    /* position: relative; */
+    /* top: -20px; */
+    /* bottom: -20px; */
+    top: 10px;
+    left: 100%;
+    z-index: 10;
+    /* z-index: -1; елемент сховався*/}
+
+.fixed{
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    
+}
+.absolute{
+    /* position: absolute; */
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    background-color:fuchsia;
+    /* width: 100%;
+    height: 100%; */
+}
